@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".TriquiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="578dp"
+        android:padding="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/jugadorxly"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+                <TextView
+                    android:id="@+id/jugadorxtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="PlayerOne(X)"
+                    android:textColor="@color/verdeManzana"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/jugadorOly"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/jugadorOtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="PlayerTwo(O)"
+                    android:textColor="@color/verdeManzana"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="30sp"
+            android:layout_marginBottom="30sp">
+            <LinearLayout
+                android:id="@+id/Contenedor"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <ImageView
+                        android:id="@+id/Casilla1"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/Casilla2"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/Casilla3"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <ImageView
+                        android:id="@+id/Casilla4"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/Casilla5"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/Casilla6"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <ImageView
+                        android:id="@+id/Casilla7"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/Casilla8"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                    <ImageView
+                        android:id="@+id/Casilla9"
+                        android:layout_width="0dp"
+                        android:layout_height="115dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/whitebox"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/Resetly"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/B_Reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="New Game"
+            android:textColor="@color/azulNeon"
+            android:gravity="center"
+            android:background="@android:color/transparent"/>
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

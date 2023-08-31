@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ApplicationTalle1</string>
+    <string name="player1">PLAYER ONE (X)</string>
+    <string name="player2">PLAYER TWO (O)</string>
+</resources>
