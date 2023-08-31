@@ -1,4 +1,4 @@
-##Nombre del grupo 
+## Nombre del grupo: 
 JAF <br>
 ## Integrantes:  
 -Julián Arana  <br>
